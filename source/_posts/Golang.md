@@ -2,6 +2,9 @@
 title: Golang
 date: 2022-10-30 16:33:44
 tags:
+- Go基本概念
+categories: 
+- golang
 ---
 #  一、一些常识
 命名类型：例如 int、int64、float32、string、bool 等预先声明类型。
@@ -11,6 +14,7 @@ tags:
 通道：关闭(close)通道后，写：不能写入，写入会直接panic。若通道存在缓冲区则可以读完，读完之后也可以读，但是会为0，可以用ok-idom进行判断是否关闭
 变量：a := 100，这种简短模式不能定义在函数外部
 常量 :
+
 
 ```go
 const (
